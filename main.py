@@ -25,8 +25,7 @@ def collect_order_book_data(pair, limit):
 
     print(f"Data collected and appended to {filename} for symbol {symbol}")
 
-
-symbol = 'BTCUSDT'  # Здесь можно указать нужный символ
+symbol = 'BTCUSDT'  # Здесь можно указать нужный символ (пару)
 depth_limit = 10  # Здесь можно указать нужную глубину стакана
 puase = 60
 
