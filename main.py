@@ -4,6 +4,7 @@ import time
 import os
 
 
+
 def collect_order_book_data(pair, limit):
     url = f'https://api.binance.com/api/v3/depth?symbol={pair}&limit={limit}'
     response = requests.get(url).json()
